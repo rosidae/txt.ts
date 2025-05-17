@@ -1,0 +1,10 @@
+*
+!package.json
+!src
+!src/**/*
+!readme
+!license
+!.gitignore
+
+!.editorconfig
+!.prettierrc
