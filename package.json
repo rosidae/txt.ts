@@ -4,11 +4,12 @@
   "types": "out/index.d.ts",
   "version": "0.1.0",
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts --out-dir out",
+    "build": "tsup",
     "test": "vitest"
   },
   "devDependencies": {
     "prettier": "3.5.3",
+    "terser": "^5.39.2",
     "tsup": "^8.5.0",
     "typescript": "^5.8.3",
     "vitest": "^3.1.3"

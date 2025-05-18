@@ -8,3 +8,4 @@
 
 !.editorconfig
 !.prettierrc
+!tsup.config.ts
