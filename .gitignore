@@ -4,6 +4,7 @@
 !package.json
 
 !.editorconfig
+!.prettierignore
 !.prettierrc
 !eslint.config.ts
 !tsup.config.ts

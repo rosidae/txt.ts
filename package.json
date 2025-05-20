@@ -12,7 +12,10 @@
   "scripts": {
     "build": "tsup",
     "test": "vitest",
-    "lint": "eslint ."
+    "format": "prettier --write src",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "prepare": "pnpm format && pnpm lint && pnpm build"
   },
   "devDependencies": {
     "@eslint/js": "^9.27.0",
