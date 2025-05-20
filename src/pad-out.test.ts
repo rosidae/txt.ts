@@ -1,5 +1,6 @@
-import { describe, it, expect } from 'vitest';
-import { padOut, padOutLeft, padOutRight } from './pad-out';
+import { describe, expect, it } from 'vitest';
+
+import { padOutRight, padOutLeft, padOut } from './pad-out';
 
 describe('padOutLeft', () => {
   it('should pad with spaces on the left', () => {

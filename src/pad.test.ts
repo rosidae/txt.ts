@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { pad, padLeft, padRight } from './pad';
+
+import { padRight, padLeft, pad } from './pad';
 
 describe('padLeft', () => {
   it('should pad with spaces on the left', () => {
