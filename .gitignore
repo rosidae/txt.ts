@@ -1,11 +1,16 @@
 *
-!package.json
 !src
 !src/**/*
-!readme
-!license
-!.gitignore
+!package.json
 
 !.editorconfig
 !.prettierrc
+!eslint.config.ts
 !tsup.config.ts
+
+!.gitignore
+!license
+!readme
+
+!.vscode
+!.vscode/**/*
