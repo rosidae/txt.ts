@@ -13,4 +13,4 @@
 !readme
 
 !.vscode
-!.vscode/**/*
+!.vscode/extensions.json
