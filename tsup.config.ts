@@ -4,8 +4,7 @@ export default defineConfig({
   entry: ['src/index.ts'],
   format: ['esm', 'cjs'],
   minify: 'terser',
-  sourcemap: false,
-  splitting: false,
+  sourcemap: true,
   outDir: 'out',
   clean: true,
   dts: true
