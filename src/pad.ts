@@ -1,6 +1,4 @@
-/**
- * Adds padding in order to make a string `length` characters longer
- */
+// Adds padding in order to make a string `length` characters longer
 export function pad(
   text: string,
   length: number,
